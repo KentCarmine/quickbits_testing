@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:3000/" />
+<title>quickbits_selenium_tests</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">quickbits_selenium_tests</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=file_input</td>
+	<td>/Users/apprentice/Desktop/Illinois_All_Geographies.zip</td>
+</tr>
+<tr>
+	<td>waitForValue</td>
+	<td>id=url</td>
+	<td>regex:http://localhost:3000/.+$</td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>id=url</td>
+	<td>url</td>
+</tr>
+<tr>
+	<td>setTimeout</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>openWindow</td>
+	<td>${url}</td>
+	<td>receiver</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectPopUp</td>
+	<td></td>
+	<td>receiver</td>
+</tr>
+<tr>
+	<td>close</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=p#error_message</td>
+	<td>Connection lost! File transfer aborted!</td>
+</tr>
+</tbody></table>
+</body>
+</html>
