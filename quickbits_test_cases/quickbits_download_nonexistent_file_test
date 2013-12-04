@@ -26,6 +26,11 @@
 	<td>css=p.#error_message</td>
 	<td>Unable to connect to sender! Connection timed out after 10 sec.</td>
 </tr>
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr>
 </tbody></table>
 </body>
 </html>
