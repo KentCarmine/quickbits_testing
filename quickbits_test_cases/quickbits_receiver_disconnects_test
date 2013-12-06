@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://localhost:3000/" />
+<link rel="selenium.base" href="http://www.quickbits.co/" />
 <title>quickbits_selenium_tests</title>
 </head>
 <body>
@@ -24,7 +24,7 @@
 <tr>
 	<td>waitForValue</td>
 	<td>id=url</td>
-	<td>regex:http://localhost:3000/.+$</td>
+	<td>regex:http://www.quickbits.co/.+$</td>
 </tr>
 <tr>
 	<td>storeValue</td>
@@ -33,7 +33,7 @@
 </tr>
 <tr>
 	<td>setTimeout</td>
-	<td>5000</td>
+	<td>15000</td>
 	<td></td>
 </tr>
 <tr>
@@ -63,13 +63,13 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>2000</td>
+	<td>15000</td>
 	<td></td>
 </tr>
 <tr>
 	<td>waitForText</td>
 	<td>css=p#error_message</td>
-	<td>Connection lost! File transfer aborted!</td>
+	<td>Connection may have failed. File transfer may have aborted.</td>
 </tr>
 </tbody></table>
 </body>

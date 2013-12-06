@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://localhost:3000/" />
+<link rel="selenium.base" href="http://www.quickbits.co/" />
 <title>quickbits_selenium_tests</title>
 </head>
 <body>
@@ -13,8 +13,8 @@
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>http://localhost:3000/nosuchfile</td>
-	<td>http://localhost:3000/nosuchfile</td>
+	<td>http://www.quickbits.co/nosuchfile</td>
+	<td>http://www.quickbits.co/nosuchfile</td>
 </tr>
 <tr>
 	<td>setTimeout</td>
